@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-gray-100;
+}
+input, select {
+  @apply bg-gray-800 text-white p-2 rounded outline-none;
+}
+button {
+  @apply bg-green-600 hover:bg-green-700 px-4 py-2 rounded;
+}
